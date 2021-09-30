@@ -98,6 +98,14 @@
         .btn{
             box-shadow:5px 5px 5px 2px grey;
         }
+
+        #loginform{
+        color:rgb(42,74,74);
+        border:10px solid white;
+        webkit-box-shadow: -1px 1px 5px 2px rgba(42,74,74, 0.75);
+        -moz-box-shadow: -1px 1px 5px 2px rgba(42,74,74, 0.75);
+        box-shadow: -1px 1px 5px 2px rgba(42,74,74, 0.75);
+        }
     </style>
 
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -120,7 +128,7 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item pe-3 me-3 border-end">
-                                    <a class="nav-link home" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link home" aria-current="page" href="/">Home</a>
                                 </li>
 
                                 <li class="nav-item pe-3 me-3 border-end">
@@ -138,11 +146,11 @@
                                     </ul>
                                 </li>
 
-                                <li class="nav-item  ">
-                                    <a class="nav-link ps-3 pe-3 me-3 border border-dark rounded log" id="login">Log in</a>
+                                <li class="nav-item">
+                                    <a class="nav-link ps-3 pe-3 me-3 border border-dark rounded log" id="login" href="/login">Log in</a>
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link ps-3 pe-3 me-3 border border-dark rounded sign">Sign up</a>
+                                    <a class="nav-link ps-3 pe-3 me-3 border border-dark rounded sign" href="signup">Sign up</a>
                                 </li>
                             </ul>
 
