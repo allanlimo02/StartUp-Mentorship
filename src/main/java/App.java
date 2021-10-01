@@ -27,5 +27,7 @@ public class App {
             Map<String,Object> model = new HashMap<>();
             return new ModelAndView(model, "signupform.hbs");
         }), new HandlebarsTemplateEngine());
+
+
     }
 }
